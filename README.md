@@ -1,28 +1,24 @@
-# Tenzies Game
+# Shopping Cart App
 
 ## Description
 
-Tenzies is a simple, fun, and addictive dice game where the objective is to roll all the dice to get the same number. This implementation is built using React and showcases state management, event handling, and basic styling.
+A Shopping Cart App built using plain JavaScript and Firebase as the database. Users can add, update, and delete items from their shopping cart in real-time. The app uses Firebase to manage and synchronize cart data, ensuring that changes are reflected instantly across devices.
 
 ## Features
 
-- Roll multiple dice
-- Hold specific dice between rolls
-- Track the number of rolls taken to win
-- Responsive design
+- **Add Products**: Users can browse available products and add them to their cart.
+- **Update Cart**: Modify quantities of items directly within the cart.
+- **Delete Items**: Users can remove items from the cart.
+- **Real-time Sync**: All changes are instantly reflected in Firebase and synchronized across sessions.
 
 ## Technologies Used
 
-- React
-- JavaScript (ES6+)
-- CSS
+- Plain JavaScript (ES6+)
+- Firebase (Real-time Database)
 
-## Getting Started
+## Setup Instructions
 
 ### Prerequisites
 
-Make sure you have the following installed:
-
-- Node.js (>=14.x)
-- npm (Node Package Manager)
-
+- You will need a Firebase account and a Firebase project set up.
+- A modern browser that supports ES6 features.
